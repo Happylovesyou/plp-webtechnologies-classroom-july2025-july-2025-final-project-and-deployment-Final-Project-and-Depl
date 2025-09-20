@@ -1,0 +1,79 @@
+/* css/style.css
+   Simple responsive styling for the multipage site.
+   Keep file organized: variables -> base -> layout -> utilities
+*/
+
+/* ---------- Variables ---------- */
+:root{
+  --accent:#2b7a78;
+  --accent-2:#f6bd60;
+  --text:#222;
+  --muted:#666;
+  --bg:#fff;
+  --max-width:1100px;
+  --radius:8px;
+}
+
+/* ---------- Reset / Base ---------- */
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+img{max-width:100%;display:block}
+.container{max-width:var(--max-width);margin:0 auto;padding:0 16px}
+
+/* ---------- Header ---------- */
+.site-header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:40}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{font-weight:700;color:var(--accent);text-decoration:none;font-size:1.1rem}
+.main-nav{display:flex;gap:16px}
+.nav-link{color:var(--text);text-decoration:none;padding:8px;border-radius:6px}
+.nav-link:hover,.nav-link.active{background:#f0f5f5;color:var(--accent)}
+.nav-toggle{display:none;background:none;border:0}
+
+/* ---------- HERO ---------- */
+.hero{padding:40px 0;display:flex;align-items:center}
+.hero-inner{display:flex;gap:32px;align-items:center;justify-content:space-between}
+.hero-text{flex:1;min-width:260px}
+.hero-text h1{margin:0 0 8px;font-size:2rem}
+.lead{color:var(--muted);margin-bottom:16px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+.btn-outline{border:1px solid var(--accent);color:var(--accent);background:transparent}
+
+/* slider styles */
+.hero-slider{flex:1;max-width:520px;position:relative;border-radius:10px;overflow:hidden}
+.hero-slider .slide{opacity:0;transition:opacity .5s ease;position:absolute;inset:0;object-fit:cover;width:100%;height:100%}
+.hero-slider .slide.active{opacity:1;position:relative}
+.slider-controls{position:absolute;bottom:12px;right:12px;display:flex;gap:8px}
+.slider-controls button{background:rgba(0,0,0,0.5);color:#fff;border:0;padding:6px 8px;border-radius:6px}
+
+/* ---------- FEATURES ---------- */
+.features{padding:36px 0;background:#fbfbfb}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.04)}
+
+/* ---------- CONTACT / FORM ---------- */
+.contact{padding:36px 0}
+.form-row{margin-bottom:12px;display:flex;flex-direction:column}
+label{font-weight:600;margin-bottom:6px}
+input[type="text"],input[type="email"],textarea{
+  padding:10px;border:1px solid #ddd;border-radius:8px;font-size:1rem
+}
+.btn{cursor:pointer;border:0}
+.error{color:#b00020;font-size:.9rem;height:1rem;margin-top:6px}
+.form-success{color:green;margin-top:8px}
+
+/* ---------- FOOTER ---------- */
+.site-footer{padding:18px 0;border-top:1px solid #eee;background:#fff}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:.95rem}
+.footer-nav a{margin-left:8px;color:var(--muted);text-decoration:none}
+
+/* ---------- Responsive ---------- */
+@media (max-width:900px){
+  .hero-inner{flex-direction:column-reverse}
+  .grid-3{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  .main-nav{display:none}
+  .nav-toggle{display:block}
+  .hero-text h1{font-size:1.5rem}
+  .grid-3{grid-template-columns:1fr}
+}

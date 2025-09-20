@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Rose Maina</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Rose Maina</a>
+      <nav id="main-nav" class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container contact">
+      <h1>Contact Me</h1>
+      <p class="lead">Send a message — I’ll get back to you as soon as possible.</p>
+
+      <!-- Simple client-side form (no backend). For a live site, integrate Netlify Forms or a backend. -->
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" required placeholder="Your full name" />
+          <small class="error" id="error-name"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          <small class="error" id="error-email"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Type your message..."></textarea>
+          <small class="error" id="error-message"></small>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+
+        <div id="form-success" class="form-success" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year-3"></span> Rose Maina — All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
