@@ -177,8 +177,5 @@ Organizing files in a professional folder structure
 Deploying a website using GitHub Pages
 
 
----
-
-This README is **student-friendly but detailed enough** to tick every box: overview, features, structure, deployment, and outcome ✅.  
-
-Would you like me to also **write you the short “planning notes”** (site purpose, page outline, navigation) from *Part 1 of the assignment* so you can include them in your submission if required?
+#Happy coding
+#Happy loves you
