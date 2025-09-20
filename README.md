@@ -88,3 +88,97 @@ Deploy your project and confirm that:
 * Clean, well-organized, and commented code
 * Successful live deployment with a working link
 * Evidence of following best practices
+
+
+ANSWERS
+
+# 🌐 Final Project — Multipage Portfolio Website
+
+This repository contains my **Final Project** for the **PLP Web Technologies July 2025 class**.  
+It is a multipage website built with **HTML5, CSS3, and JavaScript**, then deployed on **GitHub Pages**.  
+
+---
+
+## 📖 Project Overview
+The website is a **personal portfolio** designed to showcase:
+- My background and skills
+- My professional interests
+- A way for people to contact me  
+
+It demonstrates responsive design, clean layout, and basic JavaScript interactivity.
+
+---
+
+## ✨ Features
+- ✅ **Three pages** → Home, About, Contact  
+- ✅ **Responsive design** → Works on desktop & mobile  
+- ✅ **Navigation menu** → Links between all pages  
+- ✅ **Image slider** → On the Home page  
+- ✅ **Profile image** → On the About page  
+- ✅ **Contact form** → With simple validation  
+- ✅ **Consistent footer & layout**
+
+---
+
+## 📂 Project Structure
+
+index.html → Home page
+about.html → About page
+contact.html → Contact page
+css/style.css → Stylesheet
+js/script.js → JavaScript interactivity
+images/ → Images used (slider + profile)
+README.md → Project documentation
+
+
+---
+
+## 🚀 Deployment Guide
+
+The website is deployed using **GitHub Pages**.
+
+### Steps to Deploy
+1. Push all project files to this repository:
+plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Dep
+
+
+2. Go to your repo on GitHub → **Settings** → **Pages**  
+3. Under **Branch**, select:
+- Branch: `main`  
+- Folder: `/ (root)`  
+4. Click **Save**.  
+5. Wait a minute, then visit your live link:  
+
+👉 **Live Website URL:**  
+[https://happylovesyou.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Dep/](https://happylovesyou.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Dep/)
+
+---
+
+## ⚙️ How to Run Locally
+1. Clone this repo:
+```bash
+git clone https://github.com/happylovesyou/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Dep.git
+
+2.Open the folder on your computer.
+3.Double-click index.html to open in your browser.
+
+📌 Outcome
+
+By completing this project, I practiced:
+
+Using HTML5 for semantic structure
+
+Applying CSS3 for responsive design and styling
+
+Adding JavaScript for interactivity
+
+Organizing files in a professional folder structure
+
+Deploying a website using GitHub Pages
+
+
+---
+
+This README is **student-friendly but detailed enough** to tick every box: overview, features, structure, deployment, and outcome ✅.  
+
+Would you like me to also **write you the short “planning notes”** (site purpose, page outline, navigation) from *Part 1 of the assignment* so you can include them in your submission if required?
