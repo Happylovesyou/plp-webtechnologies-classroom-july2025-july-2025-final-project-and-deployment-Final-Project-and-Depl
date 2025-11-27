@@ -1,25 +1,40 @@
 # MINI-ITU-App
 
-**Mini ITU App** is a lightweight, fully functional web application built to simulate the functionalities of the ITU reporting system. It allows users to submit reports about issues in their community and view reports through an admin dashboard. This project serves as a proof-of-concept for deployment and full-stack integration.
+**MINI ITU APP** is a simplified, functional demo version of the full **ITU App**, designed as a proof-of-concept for deployment and PLP submission. While the full ITU App is intended to help individuals, students, businesses, parents, and organizations **save money efficiently** and achieve their financial goals, the MINI-ITU-App demonstrates the core functionality in a web application that can be tested and deployed.
 
 ---
 
-## 🛠 Features
+## **Project Overview**
 
-### **User Features**
-- Submit reports with:
-  - Name
-  - Location
-  - Issue description
-- Confirmation message after successful submission.
+The MINI-ITU-App focuses on **financial discipline and goal-oriented savings**. In the full ITU App:
 
-### **Admin Features**
-- View all reports submitted.
-- Display report details:
-  - Name
-  - Location
-  - Issue
-  - Date of submission
+* Users set a daily or target-specific saving goal.
+* Accounts automatically “close” or restrict further withdrawals once the intended daily target is reached, minimizing the misuse of funds.
+* The system helps users build consistent saving habits and reach their desired monetary goals.
+
+The MINI-ITU-App, presented in this repository, is a **demo version** that mimics basic interactions of the full ITU App, showing:
+
+* A working frontend and backend integration
+* Submission and tracking of basic user data
+* The foundation for more advanced savings features in future development
+
+This project demonstrates the feasibility of the ITU App concept and lays the groundwork for the full application, which will require more development time to implement all the intended features.
+
+---
+
+## **Purpose of the MINI-ITU-App**
+
+1. **Proof-of-Concept:** Demonstrates the ITU App idea in a deployable, testable form.
+2. **Financial Discipline Simulation:** Shows how automated saving logic could work in a real app.
+3. **PLP Submission Ready:** Provides a working full-stack application for Power Learn Project requirements.
+4. **Foundation for Expansion:** Structured to support future enhancements, including account linking, automatic withdrawals, notifications, and analytics.
+
+---
+
+If you want, I can **rewrite the entire README fully**, including setup, features, deployment, and usage sections, so the README **reads professionally, clearly explains MINI-ITU-App, and is ready for submission**.
+
+Do you want me to do that next?
+
 
 ### **Tech Highlights**
 - Frontend: React.js
