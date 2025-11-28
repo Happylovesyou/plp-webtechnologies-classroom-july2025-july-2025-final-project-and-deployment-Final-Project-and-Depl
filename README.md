@@ -29,13 +29,6 @@ This project demonstrates the feasibility of the ITU App concept and lays the gr
 3. **PLP Submission Ready:** Provides a working full-stack application for Power Learn Project requirements.
 4. **Foundation for Expansion:** Structured to support future enhancements, including account linking, automatic withdrawals, notifications, and analytics.
 
----
-
-If you want, I can **rewrite the entire README fully**, including setup, features, deployment, and usage sections, so the README **reads professionally, clearly explains MINI-ITU-App, and is ready for submission**.
-
-Do you want me to do that next?
-
-
 ### **Tech Highlights**
 - Frontend: React.js
 - Backend: Node.js, Express.js
@@ -43,8 +36,6 @@ Do you want me to do that next?
 - API communication using Axios
 - Cross-Origin Resource Sharing enabled with `cors`
 - Environment variables managed using `dotenv`
-
----
 
 ## 📁 Project Structure
 
@@ -65,9 +56,6 @@ MINI-ITU-APP/
 │ └── package.json # Frontend dependencies
 └── README.md
 
-
----
-
 ## ⚙️ Setup & Installation
 
 ### **1. Clone the repository**
@@ -81,7 +69,7 @@ cd MINI-ITU-APP
    npm install
    
 Creeate .env file:
-MONGO_URI=<your MongoDB Atlas connection string>
+MONGO_URI=mongodb+srv://Happylovesyou:Happylovesyou@cluster0.tmzx1uo.mongodb.net/ITU_DB?retryWrites=true&w=majority
 PORT=5000
 
 Start the backend server
