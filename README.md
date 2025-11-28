@@ -115,7 +115,7 @@ Frontend
 
 
  🔗 Live Demo
-Frontend: 
+Frontend: https://miniituapp1.vercel.app/
 Backend API:https://plp-webtechnologies-classroom-july2025-oj85.onrender.com
 
 📦 Dependencies
