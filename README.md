@@ -116,7 +116,7 @@ Frontend
 
  🔗 Live Demo
 Frontend: 
-Backend API:https://mini-itu-app.onrender.com
+Backend API:https://plp-webtechnologies-classroom-july2025-oj85.onrender.com
 
 📦 Dependencies
 Backend:
