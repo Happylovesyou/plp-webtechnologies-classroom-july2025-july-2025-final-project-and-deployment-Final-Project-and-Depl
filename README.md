@@ -115,8 +115,8 @@ Frontend
 
 
  🔗 Live Demo
-Frontend: [Add your deployed frontend URL here]
-Backend API: [Add your deployed backend URL here]
+Frontend: 
+Backend API:https://mini-itu-app.onrender.com
 
 📦 Dependencies
 Backend:
